@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- I set the padding for all text to lower dimensions so it could fit -->
+    <dimen name="textPaddingGeneral">5dp</dimen>
+    <dimen name="textPaddingScore">10dp</dimen>
+    <dimen name="textPaddingFouls">15dp</dimen>
+    <!-- I set the margin for all buttons to lower dimensions so it could fit -->
+    <dimen name="scoreButtonMargin">20dp</dimen>
+    <dimen name="foulButtonMargin">30dp</dimen>>
+    <dimen name="resetButtonMargin">10dp</dimen>
+    <!-- Dimensions for central line-->
+    <dimen name="centralLineMargin">5dp</dimen>
+    <dimen name="centralLineWidth">5dp</dimen>
+</resources>

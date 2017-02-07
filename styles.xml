@@ -1,0 +1,41 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+        <item name="colorPrimary">@color/headerBackgroundColor</item>
+        <item name="colorButtonNormal">@color/buttonBackgroundColor</item>
+    </style>
+
+
+    <style name="multipleText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/generalTextColor</item>
+    </style>
+
+    <style name="multipleButton">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+    </style>
+
+    <style name="scoreText">
+        <item name="android:textSize">56sp</item>
+        <item name="android:textColor">@color/scoreAndFoulColor</item>
+    </style>
+
+    <style name="foulText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/scoreAndFoulColor</item>
+    </style>
+
+    <style name="scoreTextButton">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+    </style>
+
+    <style name="foulTextButton">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+    </style>
+
+</resources>

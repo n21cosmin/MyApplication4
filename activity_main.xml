@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.myapplication.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/multipleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="@dimen/textPaddingGeneral"
+                android:text="@string/firstTeamName" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/multipleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="@dimen/textPaddingGeneral"
+                android:text="@string/goalScoreName" />
+
+            <TextView
+                android:id="@+id/team_a_score"
+                style="@style/scoreText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:padding="@dimen/textPaddingScore"
+                android:text="@string/initialValueOfScores" />
+
+            <TextView
+                style="@style/multipleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="@dimen/textPaddingGeneral"
+                android:text="@string/foulScoreName" />
+
+            <TextView
+                style="@style/multipleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="@dimen/textPaddingGeneral"
+                android:text="@string/firstTeamName" />
+
+            <TextView
+                android:id="@+id/team_a_foul_score"
+                style="@style/foulText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:padding="@dimen/textPaddingFouls"
+                android:text="@string/initialValueOfScores" />
+
+            <Button
+                style="@style/scoreTextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/scoreButtonMargin"
+                android:onClick="addPointForTeamA"
+                android:text="@string/pointTextButton" />
+
+            <Button
+                style="@style/foulTextButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/foulButtonMargin"
+                android:onClick="addFoulForTeamA"
+                android:text="@string/foulTextButton" />
+
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/centralLineWidth"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/centralLineMargin"
+                android:background="@color/lineColor" />
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/multipleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="@dimen/textPaddingGeneral"
+                android:text="@string/secondTeamName" />
+
+            <TextView
+                style="@style/multipleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="@dimen/textPaddingGeneral"
+                android:text="@string/goalScoreName" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                style="@style/scoreText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:padding="@dimen/textPaddingScore"
+                android:text="@string/initialValueOfScores" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/multipleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="@dimen/textPaddingGeneral"
+                android:text="@string/foulScoreName" />
+
+            <TextView
+                style="@style/multipleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="@dimen/textPaddingGeneral"
+                android:text="@string/secondTeamName" />
+
+            <TextView
+                android:id="@+id/team_b_foul_score"
+                style="@style/foulText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:padding="@dimen/textPaddingFouls"
+                android:text="@string/initialValueOfScores" />
+
+            <Button
+                style="@style/scoreTextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/scoreButtonMargin"
+                android:onClick="addPointForTeamB"
+                android:text="@string/pointTextButton" />
+
+            <Button
+                style="@style/foulTextButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/foulButtonMargin"
+                android:onClick="addFoulForTeamB"
+                android:text="@string/foulTextButton" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6">
+
+        <Button
+            android:id="@+id/button"
+            style="@style/multipleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/resetButtonMargin"
+            android:onClick="resetScore"
+            android:text="@string/resetTextButton" />
+
+    </RelativeLayout>
+
+</LinearLayout>

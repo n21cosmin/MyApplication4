@@ -1,0 +1,10 @@
+<resources>
+    <string name="firstTeamName">A</string>
+    <string name="secondTeamName">B</string>
+    <string name="initialValueOfScores">0</string>>
+    <string name="goalScoreName">Goal</string>
+    <string name="foulScoreName">Foul</string>
+    <string name="pointTextButton">+1 POINT</string>
+    <string name="foulTextButton">+1 FOUL</string>
+    <string name="resetTextButton">RESET</string>
+</resources>

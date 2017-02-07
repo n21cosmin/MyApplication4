@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fullBackgroundColor">#FF97CCA1</color>
+    <color name="buttonBackgroundColor">#00ff2f</color>
+    <color name="headerBackgroundColor">#ff003b</color>
+    <color name="lineColor">#616161</color>
+    <color name="generalTextColor">#616161</color>
+    <color name="buttonTextColor">#000000</color>
+    <color name="scoreAndFoulColor">#000000</color>
+</resources>
